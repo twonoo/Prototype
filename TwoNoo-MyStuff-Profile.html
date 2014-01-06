@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+  </head>
+  <body>
+    <title> TwoNoo.com - My Stuff</title>
+    <link href="TwoNoo.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>    <![endif]-->
+    <div class="wrapper">
+      <header><a href="TwoNoo.html"><img class="logo" alt="TwoNoo" src="images/twonoologo-handdrawn.jpg"></a>
+      <a href="" id="user">STEVEROCKS22</a>
+      </header>
+      <nav>
+      <a href="TwoNoo-Find.html"><img class="nav" id="find" src="images/FindButton.png"></a>
+      <a href="TwoNoo-Create.html"><img class="nav" id="create" src="images/CreateButton.png"></a>
+      <a href="TwoNoo-MyStuff.html"><img class="nav" id="mystuff" src="images/MyStuffButton.png"></a>
+      <div class="PageTitle"><b>MY STUFF</b></div>
+      </nav>
+      <div id="mystuffnav">
+      <ul>
+      <li class="mystuffnav"><a href="TwoNoo-MyStuff.html" selected>DASHBOARD</a></li>
+      <li class="mystuffnav"><a href="TwoNoo-MyStuff-Profile.html" class="selected">PROFILE</a></li>
+      <li class="mystuffnav"><a href="TwoNoo-MyStuff-Settings.html">SETTINGS</a></li>
+      <li class="mystuffnav"><a href="TwoNoo-MyStuff-Messages.html">MESSAGES</a></li>
+      </ul>
+      </div>
+      <div id="MyStuffUser">
+        <div class="MyStuffTopcolumn1">
+      	<p><label>First Name:</label>
+      		<input class="signup" type="text" name="firstname" size="25" maxlength="50" value="Steve"/>
+      	</p>
+      	<p>
+			<label>Last Name:</label>
+      		<input class="signup" type="text" name="lastname" size="25" maxlength="50" value="Keefe"/></p>
+      	</p>
+      	<p><label>User Name:</label>
+      		<input class="signup" type="text" name="UserName" size="25" maxlength="50" value="STEVEROCKS22"/>
+      	</p>
+      	<p><label>Birthday:</label>
+      		<input class="signup" type="date" name="Birthday" value="1976-06-17"/>
+      	</p>
+      	<p>
+      		<input type="radio" name="sex" value="male" value="selected"/>Male
+      		<input type="radio" name="sex" value="female"/>Female
+      	</p>	
+      	</div>
+      	<div class="MyStuffTopcolumn2">
+      	<p>
+      	      	<label>Email:</label>
+      		<input class="signup" type="email" name="email" size="25" maxlength="50" value="skeefe15@gmail.com"/>
+      	</p>
+      	<fieldset>
+      	<legend>Change password</legend>
+      	<label>Password:</label>
+      		<input class="signup" type="password" name="password" size="25" maxlength="50"/>
+      	<p>
+      	<label>New Password:</label>
+      		<input class="signup" type="password" name="password" size="25" maxlength="50"/>
+      	</p>
+      	<p>
+      	<label>Re-enter New Password:</label>
+      		<input class="signup" type="password" name="password" size="25" maxlength="50"/>
+      	</p>
+      	</fieldset>
+    	</div>
+    	<p><label>About me:</label>
+    	   		<textarea name="activityDescription" cols="80" rows="4">I moved to Denver in 2012 from Atlanta, GA.  I'm loving it so far!</textarea>
+    	<a href="TwoNoo-MyStuff.html"><input type="image" class="save" id="save" src="images/SaveButton.png"></a>
+		</p>
+        <label>Upload Photo:</label>
+      		<input type="file" name="MyPhoto"/>
+      	<table>
+      	<tr>
+      	<td>
+			<img class="MyPhoto" src="images/kickballteam.jpg">
+      		<form action="">
+      		<p>
+      		<input type="button" name="Delete" value="Delete" />
+      		<input type="button" name="Primary" value="Primary Photo" />
+      		</p></form>
+      </td>
+            	<td>
+			<img class="MyPhotoPrimary" src="images/kickballteam.jpg">
+      		<form action="">
+      		<p>
+      		<input type="button" name="Delete" value="Delete" />
+      		<input type="button" name="Primary" value="Primary Photo" />
+      		</p></form>
+      </td>
+            	<td>
+			<img class="MyPhoto" src="images/kickballteam.jpg">
+      		<form action="">
+      		<p>
+      		<input type="button" name="Delete" value="Delete" />
+      		<input type="button" name="Primary" value="Primary Photo" />
+      		</p></form>
+      </td>
+      </tr>
+      </table>
+      </div>
+      <footer> © 2013 TwoNoo, LLC </footer>
+    </div>
+  </body>
+</html>

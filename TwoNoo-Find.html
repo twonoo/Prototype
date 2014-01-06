@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+  </head>
+  <body>
+    <title> TwoNoo.com - Find</title>
+    <link href="TwoNoo.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>    <![endif]-->
+    <div class="wrapper">
+      <header><a href="TwoNoo.html"><img class="logo" alt="TwoNoo" src="images/twonoologo-handdrawn.jpg"></a>
+      <a href="" id="user">STEVEROCKS22</a>
+      </header>
+      <nav>
+      <a href="TwoNoo-Find.html"><img class="nav" id="find" src="images/FindButton.png"></a>
+      <a href="TwoNoo-Create.html"><img class="nav" id="create" src="images/CreateButton.png"></a>
+      <a href="TwoNoo-MyStuff.html"><img class="nav" id="mystuff" src="images/MyStuffButton.png"></a>
+      <div class="PageTitle"><b>FIND ACTIVITIES</b></div>
+      </nav>
+      <form action="" method="post">
+      	<div class="findcolumn1">
+      	<p><label>Activity Name:</label>
+      		<input type="text" name="activityname" size="25" maxlength="50" autofocus/>
+      	</p>
+      	<p><label>Activity Date:</label>
+      		<input type="date" name="activitydate"/>
+      	</p>
+      	<p><label>City:</label>
+      		<input type="text" name="activityCity" size="25" maxlength="50"/>
+      	<label>State:</label>
+      		<input type="text" name="activityState" size="2" maxlength="2"/>
+      	</p>
+      	<p><label>Venue Name:</label>
+      		<input type="text" name="activityVenue" size="25" maxlength="50" placeholder="Example: Billy's Bar"/>
+      	</p>
+      	<p><label>User Name:</label>
+      		<input type="text" name="username" size="20" maxlength="20"/>
+      	</p>
+      	</div>
+      	<div class="findcolumn2">
+      	<fieldset id="ActivityType">
+      	<legend>Activity Type (Select ALL that apply):
+      	</legend>
+      	<table>
+      	<tr>
+      		<td><input type="checkbox" name="activityType" value="Sports"/> Sports</td>
+      		<td><input type="checkbox" name="activityType" value="Outdoors"/> Outdoors</td>
+      		<td><input type="checkbox" name="activityType" value="Nightlife"/> Nightlife</td>
+      	</tr>
+      	<tr>
+      		<td><input type="checkbox" name="activityType" value="Arts"/> Arts</td>
+      		<td><input type="checkbox" name="activityType" value="EatDrink"/> Eat & Drink</td>
+      		<td><input type="checkbox" name="activityType" value="Community"/> Community</td>
+      	</tr>
+      	<tr>
+      		<td><input type="checkbox" name="activityType" value="Business"/> Business</td>
+      		<td><input type="checkbox" name="activityType" value="Cool Stuff"/> Cool Stuff</td>
+      	</tr>
+    	</table>
+    	</fieldset>
+      	<p>
+      	<input type="checkbox" name="Following" value="Following"/>Only show people I'm following
+      	</p>
+    	</div>
+    	<input type="image" class="search" id="search" src="images/SearchButton.jpg"></a>
+      </form>
+      <div class="collapsebar"></div>
+      <div class="searchresults">
+      <table>
+      	<tr>
+      		<td><a href="TwoNoo-ActivityDetails.html" class="searchlink"><div class="searchresult">
+      		<div class="activityname">Trivia Tuesdays</div><div class="time">6:00pm</div>
+      		<img class="ActivityPhoto" src="images/kickballteam.jpg">
+      		<div>Tuesday, July 9 @ Billy's Bar</div>
+      		<div>1234 Slippery Slope Lane, Aurora, CO</div>
+      		</div></td></a>
+      		<td><a href="TwoNoo-ActivityDetails.html" class="searchlink"><div class="searchresult">
+      		<div class="activityname">Pickup Soccer in City Park</div><div class="time">6:30pm</div>
+      		<img class="ActivityPhoto" src="images/ActivityImage1.jpg">
+      		<div>Tuesday, July 9 @ City Park</div>
+      		<div>Denver, CO</div>
+      		</div></td></a>
+      	</tr>
+      	<tr>
+      		<td><a href="TwoNoo-ActivityDetails.html" class="searchlink"><div class="searchresult">
+      		<div class="activityname">Libertarians of Denver Monthly Meeting</div><div class="time">4:00pm</div>
+      		<img class="ActivityPhoto" src="images/ActivityImage2.jpg">
+      		<div>Wednesday, July 10 @ St. Mark's Coffee Shop</div>
+      		<div>1523 17th Ave, Denver, CO</div>
+      		</div></td></a>
+      		<td><a href="TwoNoo-ActivityDetails.html" class="searchlink"><div class="searchresult">
+      		<div class="activityname">Looking for a Hiking Partner</div><div class="time">&nbsp;</div>
+      		<img class="ActivityPhoto" src="images/ActivityImage3.jpg">
+      		<div>&nbsp;</div>
+      		<div>Vail, CO</div>
+      		</div></td></a>
+      	</tr>
+    	</table>
+      </div>
+      <footer> © 2013 TwoNoo, LLC </footer>
+    </div>
+  </body>
+</html>

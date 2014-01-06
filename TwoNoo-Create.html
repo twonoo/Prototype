@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+  </head>
+  <body>
+    <title> TwoNoo.com - Create</title>
+    <link href="TwoNoo.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>    <![endif]-->
+    <div class="wrapper">
+      <header><a href="TwoNoo.html"><img class="logo" alt="TwoNoo" src="images/twonoologo-handdrawn.jpg"></a>
+      <a href="" id="user">STEVEROCKS22</a>
+      </header>
+      <nav>
+      <a href="TwoNoo-Find.html"><img class="nav" id="find" src="images/FindButton.png"></a>
+      <a href="TwoNoo-Create.html"><img class="nav" id="create" src="images/CreateButton.png"></a>
+      <a href="TwoNoo-MyStuff.html"><img class="nav" id="mystuff" src="images/MyStuffButton.png"></a>
+      <div class="PageTitle"><b>CREATE ACTIVITY</b></div>
+      </nav>
+      <form action="" method="post">
+      	<div class="column1">
+      	<p><label>Activity Name:</label>
+      		<input type="text" name="activityname" size="25" maxlength="50" required autofocus/>
+      	</p>
+      	<p><label>Activity Date:</label>
+      		<input type="date" name="activitydate"/>
+      		<label>Time:</label>
+      		<input type="time" name="activityTime"/>
+      	</p>
+      	<p><label>Address:</label>
+      		<input type="text" name="activityaddress" size="50" maxlength="100"/>
+      	</p>
+      	<p><label>City:</label>
+      		<input type="text" name="activityCity" size="25" maxlength="50" required/>
+      	<label>State:</label>
+      		<input type="text" name="activityState" size="2" maxlength="2" required/>
+      	</p>
+      	<p><label>Venue Name:</label>
+      		<input type="text" name="activityVenue" size="25" maxlength="50" placeholder="Example: Billy's Bar"/>
+      	</p>
+      	<p><label>Website URL:</label>
+      		<input type="url" name="activityURL" size="25" maxlength="50"/>
+      	</p>
+      	<p><label>Upload Photo:</label>
+      		<input type="file" name="activityPhoto"/>
+      	</p>
+      	<p><label>Description:</label>
+      		<textarea name="activityDescription" cols="80" rows="4" class="required" placeholder="Describe you activity..." required></textarea>
+      	</p>
+      	</div>
+      	<div class="column2">
+      	<p>Allow others to RSVP for this activity?
+      	<br />
+      		<input type="radio" name="AllowRSVP" value="Yes" checked="checked" />Yes
+      		<input type="radio" name="AllowRSVP" value="No"/>No
+      	</p>      		
+      	<fieldset id="ActivityType">
+      	<legend>Activity Type (Select ALL that apply):
+      	</legend>
+      	<table>
+      	<tr>
+      		<td><input type="checkbox" name="activityType" value="Sports"/> Sports</td>
+      		<td><input type="checkbox" name="activityType" value="Outdoors"/> Outdoors</td>
+      		<td><input type="checkbox" name="activityType" value="Nightlife"/> Nightlife</td>
+      	</tr>
+      	<tr>
+      		<td><input type="checkbox" name="activityType" value="Arts"/> Arts</td>
+      		<td><input type="checkbox" name="activityType" value="EatDrink"/> Eat & Drink</td>
+      		<td><input type="checkbox" name="activityType" value="Community"/> Community</td>
+      	</tr>
+      	<tr>
+      		<td><input type="checkbox" name="activityType" value="Business"/> Business</td>
+      		<td><input type="checkbox" name="activityType" value="Cool Stuff"/> Cool Stuff</td>
+      	</tr>
+    	</table>
+    	</fieldset>
+    	</div>
+    	<a href="TwoNoo-ActivityDetails.html"><input type="image" class="save" id="save" src="images/SaveButton.png"></a>
+      </form>
+      <footer> © 2013 TwoNoo, LLC </footer>
+    </div>
+  </body>
+</html>
