@@ -4,7 +4,7 @@
     <meta content="text/html; charset=windows-1252" http-equiv="content-type">
   </head>
   <body>
-    <title> TwoNoo.com - Create</title>
+    <title> TwoNoo.com - Edit</title>
     <link href="TwoNoo.css" type="text/css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>    <![endif]-->
@@ -16,28 +16,28 @@
       <a href="TwoNoo-Find.html"><img class="nav" id="find" src="images/FindButton.png"></a>
       <a href="TwoNoo-Create.html"><img class="nav" id="create" src="images/CreateButton.png"></a>
       <a href="TwoNoo-MyStuff.html"><img class="nav" id="mystuff" src="images/MyStuffButton.png"></a>
-      <div class="PageTitle"><b>CREATE ACTIVITY</b></div>
+      <div class="PageTitle"><b>EDIT ACTIVITY</b></div>
       </nav>
       <form action="TwoNoo-ActivityDetails.html" method="post">
       	<div class="column1">
       	<p><label>Activity Name:</label>
-      		<input type="text" name="activityname" size="25" maxlength="50" required autofocus/>
+      		<input type="text" value="Pickup Soccer in City Park" name="activityname" size="25" maxlength="50" required autofocus/>
       	</p>
       	<p><label>Activity Date:</label>
-      		<input type="date" name="activitydate"/>
+      		<input type="date" value="2014-07-09" name="activitydate"/>
       		<label>Time:</label>
-      		<input type="time" name="activityTime"/>
+      		<input type="time" value="18:00:00" name="activityTime"/>
       	</p>
       	<p><label>Address:</label>
       		<input type="text" name="activityaddress" size="50" maxlength="100"/>
       	</p>
       	<p><label>City:</label>
-      		<input type="text" name="activityCity" size="25" maxlength="50" required/>
+      		<input type="text" value="Denver" name="activityCity" size="25" maxlength="50" required/>
       	<label>State:</label>
-      		<input type="text" name="activityState" size="2" maxlength="2" required/>
+      		<input type="text" value="CO" name="activityState" size="2" maxlength="2" required/>
       	</p>
       	<p><label>Venue Name:</label>
-      		<input type="text" name="activityVenue" size="25" maxlength="50" placeholder="Example: Billy's Bar"/>
+      		<input type="text" value="City Park" name="activityVenue" size="25" maxlength="50" placeholder="Example: Billy's Bar"/>
       	</p>
       	<p><label>Website URL:</label>
       		<input type="url" name="activityURL" size="25" maxlength="50"/>
@@ -46,7 +46,7 @@
       		<input type="file" name="activityPhoto"/>
       	</p>
       	<p><label>Description:</label>
-      		<textarea name="activityDescription" cols="80" rows="4" class="required" placeholder="Describe you activity..." required></textarea>
+      		<textarea name="activityDescription" cols="80" rows="4" class="required" required>Come join us for pickup soccer every Tuesday at City Park! All skill levels are welcome and it's coed. We meet on the east side of the park near York and 17th.</textarea>
       	</p>
       	</div>
       	<div class="column2">
@@ -60,8 +60,8 @@
       	</legend>
       	<table>
       	<tr>
-      		<td><input type="checkbox" name="activityType" value="Sports"/> Sports</td>
-      		<td><input type="checkbox" name="activityType" value="Outdoors"/> Outdoors</td>
+      		<td><input type="checkbox" name="activityType" value="Sports" checked="checked"/> Sports</td>
+      		<td><input type="checkbox" name="activityType" value="Outdoors" checked="checked"/> Outdoors</td>
       		<td><input type="checkbox" name="activityType" value="Nightlife"/> Nightlife</td>
       	</tr>
       	<tr>
