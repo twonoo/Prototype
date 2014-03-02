@@ -170,6 +170,15 @@ div.time {
 	margin: 5px 5px auto auto;}
 div.clearleft {
 	clear: left;}
+div.cancelrsvp {
+	margin: 5px 5px auto 5px;
+	padding: 1px 1px 1px 1px;
+	color: green;
+	font-weight: bold;
+	float: left;
+	border: 2px solid red;
+	font-size: 100%;
+	display: inline;}
 #actdetailstime {
 	display: inline;
 	float: right;
@@ -191,6 +200,18 @@ a.searchlink {
 	margin: 10px;
 	display: inline;
 	background-color: #3CB371;}
+.EditActPhotos {
+    width:600px;}
+.CancelRSVP {
+	line-height: 1em;
+	font-size: 100%;
+	padding: 10px;
+	border: 2px solid red;
+	border-radius: 5px;
+	width:120px;
+	float:right;
+	margin: 10px;
+	display: inline;}
 
 /*Main Page Specific*/
 
@@ -336,6 +357,15 @@ div.followinguser {
 	font-weight: bold;
 	float: right;
 	font-size: 120%;
+	display: inline;}
+div.stopfollowing {
+	margin: 20px 5px auto 20px;
+	padding: 1px 1px 1px 1px;
+	color: green;
+	font-weight: bold;
+	float: right;
+	border: 2px solid red;
+	font-size: 100%;
 	display: inline;}
 div.HeaderDashboard {
 	font-weight: bold;
