@@ -402,4 +402,54 @@ li.mystuffnav {
 	font-size: 150%;
 	margin:  5px;
  }	
-	
+
+  /* Credits Screen */
+
+ div.addUseL {
+	float: left;
+	width: 50%;
+	text-align: center;
+ }
+ 
+ div.addUseR {
+	width: 50%;
+	float: right;
+	text-align: center;
+ }
+ 
+ .creditLogItem{
+	width: 75%;
+	float: right;
+	text-align: left;
+	margin: 3px;
+	padding: 5px;
+	background-color: #EFEFE7;
+ }
+ 
+ .alignRight{
+	text-align: right;
+ }
+ 
+ #FriendsProgress {
+	background-color: black;
+	border-radius: 6px;
+	padding: 2px;
+	width: 75%;
+	text-align: right;
+	margin: 5px;
+ }
+ 
+ #FriendsProgress > div {
+	background-color: #0066CC;
+	width: 60%;
+	height: 20px;
+	border-radius: 4px;
+	color: white;
+ }
+ 
+ td.CreditsMembershipTypeSelected {
+	background-color: #0066CC;
+	color: white;
+	vertical-align: text-center;
+ }
+ 
