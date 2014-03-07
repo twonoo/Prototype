@@ -403,6 +403,10 @@ li.mystuffnav {
 	margin:  5px;
  }	
 
+.signedOut{
+	text-align: right;
+}
+
   /* Credits Screen */
 
  div.addUseL {
