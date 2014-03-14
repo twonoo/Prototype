@@ -8,8 +8,8 @@ body	{
 .wrapper {
 	width: 940px;
 	margin: 20px auto auto auto;
-	border: 2px solid #000000;
 	background-color: #ffffff;}
+	/*border: 2px solid #000000;*/
 .nav {
 	margin: 5px auto auto 30px;
 	height: 50px;}
@@ -60,15 +60,23 @@ div#user {
 div.PageTitle {
 	display: inline;
 	float: right;
+	color: #3CB371;
+	text-shadow:
+    -1px -1px 0 black,
+    0px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    0px 1px 0 black,
+    1px 1px 0 black;
 	font-size: 2em;
-	margin: 20px;}	
+	margin: 20px 10px auto auto;}	
 header {
 	height 100px;}
 nav {
 	clear: both;
 	color: black;
+	background-image: linear-gradient(black, white);
 	background-color: #3CB371;
-	background-image: url("images/NewGreenBanner.png");
 	background-size: 100% 80%;
 	background-repeat: no-repeat;
 	background-position: 0px 5px;
@@ -76,6 +84,7 @@ nav {
 	height: 60px;
 	border-bottom: 1px solid #000000;
 	border-top: 1px solid #000000;}
+	/*background-image: url("images/NewGreenBanner.png");*/
 footer {
 	clear: both;
 	color: #ffffff;
@@ -202,6 +211,18 @@ a.searchlink {
 	background-color: #3CB371;}
 .EditActPhotos {
     width:600px;}
+.CancelButtons {
+	line-height: 1em;
+	font-size: 80%;
+	color: white;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	float: right;
+	margin: 10px;
+	display: block;
+	clear: both;
+	background-color: red;}
 .CancelRSVP {
 	line-height: 1em;
 	font-size: 100%;
@@ -254,6 +275,18 @@ input.signin {
 	text-align: center;
 	width:200px;
 	float: right;}
+.Forgot {
+	line-height: 1.3em;
+	font-size: 120%;
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+	float: center;
+	clear: both;
+	border: 1px solid;
+	border-radius: 20px;
+	width:500px;
+	margin: auto auto auto auto}
 
 /*Sign Up Specific*/	
 
@@ -402,7 +435,80 @@ li.mystuffnav {
 	font-size: 150%;
 	margin:  5px;
  }	
-
+ 
+/* Admin Specific */
+.ApprovePhotosItem {
+	clear: both;
+	padding: 2px 2px 2px 2px;}
+div.ApprovePhotos {
+	background-color: #ffffff;
+	line-height: 1.2em;
+	font-size: 80%;
+	padding: 2px;
+	border: 1px solid #3CB371;
+	border-radius: 10px;
+	width:400px;
+	height:80px;
+	margin: 0px auto 0px auto;}
+div.ApprovePhotoDetail {
+	color: black;
+	clear: left;
+	float: left;}
+img.AdminPhoto {
+	max-width: 90px;
+	max-height: 72px;
+	float: right;
+	margin: 2px;}
+#photosapprove {
+	width:900px;
+	float: left;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: white;
+	margin: 5px;}	
+img.ApprovePhoto {
+	max-width: 250px;
+	max-height: 185px;
+	float: left;
+	display: inline;}
+.ApprovalButtons {
+	line-height: 1em;
+	font-size: 100%;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	float:right;	
+	margin: 10px;
+	display: inline;
+	background-color: #3CB371;}
+div.ApprovePhoto {
+	float: left;
+	display: inline;
+	margin: 5px;}
+img.BlockPhoto {
+	max-width: 250px;
+	max-height: 185px;
+	float: left;
+	margin: 5px;
+	display: inline;}
+.Block {
+	line-height: 1.3em;
+	font-size: 120%;
+	text-align: left;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+	float: center;
+	clear: both;
+	border: 1px solid;
+	border-radius: 20px;
+	width:500px;}
+.adjustbox {
+	margin: 5px;
+	float: right;}
+#credits {
+	color: red;
+	font-weight: bold;}
 .signedOut{
 	text-align: right;
 }
@@ -456,4 +562,3 @@ li.mystuffnav {
 	color: white;
 	vertical-align: text-center;
  }
- 
