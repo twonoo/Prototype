@@ -403,11 +403,6 @@ div.stopfollowing {
 div.HeaderDashboard {
 	font-weight: bold;
 	text-align: center;}
-#mystuffnav {
-	clear: both;
-	color: black;
-	background-color: none;
-	padding: auto;}
 #mystuffnav a {
 	color:black;
 	text-decoration: none;
@@ -528,7 +523,7 @@ img.BlockPhoto {
  }
  
  .creditLogItem{
-	width: 75%;
+	width: 100%;
 	float: right;
 	text-align: left;
 	margin: 3px;
